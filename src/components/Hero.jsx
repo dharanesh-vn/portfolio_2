@@ -13,7 +13,7 @@ const Hero = () => {
         className="hero-content"
       >
         <h1 className="hero-title">Hello, I'm {personalData.name}</h1>
-        <p className="hero-subtitle">A passionate developer and designer.</p>
+        <p className="hero-subtitle">An Artificial Intelligence and Machine Learning Enthusiast</p>
       </motion.div>
     </section>
   );
