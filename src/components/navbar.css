@@ -1,0 +1,74 @@
+/* src/components/navbar.css */
+.navbar {
+  background-color: #FFFFFF;
+  color: #2D3748;
+  padding: 1rem;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-brand {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #2D3748;
+  text-decoration: none;
+}
+
+.navbar-links { display: none; }
+
+.navbar-links a {
+  margin-left: 1.5rem;
+  color: #4A5568;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s;
+}
+
+.navbar-links a:hover {
+  color: #3A506B;
+}
+
+.navbar-toggle button {
+  background: none;
+  border: none;
+  color: #2D3748;
+  cursor: pointer;
+}
+
+.hamburger-icon { width: 1.5rem; height: 1.5rem; }
+
+.navbar-mobile {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0.5rem;
+  background-color: #FFFFFF;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+}
+
+.navbar-mobile a {
+  padding: 0.75rem 1rem;
+  color: #4A5568;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  font-weight: 500;
+}
+
+.navbar-mobile a:hover {
+  background-color: #F7FAFC;
+  color: #3A506B;
+}
+
+@media (min-width: 768px) {
+  .navbar-links { display: flex; }
+  .navbar-toggle { display: none; }
+  .navbar-mobile { display: none; }
+}

@@ -1,0 +1,23 @@
+/* src/components/hero.css */
+.hero-section {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #0B132B; /* Dark blue background for strong contrast */
+  color: #FFFFFF;
+  text-align: center;
+  padding: 1rem;
+}
+
+.hero-title {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #BBDCE5; /* Use the requested color for the main title text */
+}
+
+.hero-subtitle {
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  color: #EDF2F7;
+}

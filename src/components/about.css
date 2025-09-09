@@ -1,0 +1,53 @@
+/* src/components/about.css */
+.about-section {
+  background-color: #ffffff;
+}
+
+.about-grid {
+  display: grid;
+  gap: 3rem;
+}
+@media (min-width: 768px) {
+  .about-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+.about-subtitle {
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #3A506B;
+}
+
+.about-item {
+  margin-bottom: 1.5rem;
+}
+.about-item h4 {
+  font-weight: bold;
+  margin: 0;
+}
+.item-meta {
+  font-size: 0.875rem;
+  color: #718096;
+}
+
+.interests-section {
+  margin-top: 3rem;
+  text-align: center;
+}
+.interests-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.interest-tag {
+  background-color: #EBF4FF;
+  color: #3A506B;
+  font-size: 0.875rem;
+  font-weight: 500;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+}
